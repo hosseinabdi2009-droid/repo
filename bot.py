@@ -1,7 +1,7 @@
 import os
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-TOKEN = os.environ.get("BOT_TOKEN", "")
+TOKEN = "8962003380:AAGjfeUg9dvhHx7MfPQzkccd6ySNagQL7R0"
 
 async def start(update, context):
     await update.message.reply_text("سلام! ربات آنلاینه 🚀")
